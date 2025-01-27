@@ -8,7 +8,7 @@ const cardsContainer = document.querySelector('.places__list');
  * @return { Node } - Возвращает созданную каточку
  */
 function createCard(cardData, deleteCard) {
-    const card = cardTemplate.cloneNode(true);
+    const card = cardTemplate.querySelector('.card').cloneNode(true);
 
     const cardImage = card.querySelector('.card__image');
     cardImage.src = cardData.link;
