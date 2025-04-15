@@ -13,7 +13,8 @@
   .popup__content {
     width: 100%;
     max-width: calc(100% - 80px);
+    min-height: 322px;
     margin-top: 40px;
-    padding: 30px 20px;
+    padding: 24px 22px;
   }
 }
