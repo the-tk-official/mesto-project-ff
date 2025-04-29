@@ -7,11 +7,11 @@
 @import url(./__add-button/profile__add-button.css);
 
 .profile {
-  font-family: Inter, Arial, sans-serif;
   display: flex;
   align-items: center;
   padding: 36px 0;
   color: #fff;
+  font-family: Inter, Arial, sans-serif;
 }
 
 @media screen and (max-width: 480px) {

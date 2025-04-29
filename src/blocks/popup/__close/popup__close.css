@@ -5,17 +5,17 @@
   width: 32px;
   height: 32px;
   margin: 0;
-  padding: 0;
-  cursor: pointer;
-  transition:
-    visibility 0s,
-    opacity 0.3s;
   border: none;
+  padding: 0;
   background-color: transparent;
   background-image: url(../../../images/close.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 32px 32px;
+  transition:
+    visibility 0s,
+    opacity 0.3s;
+  cursor: pointer;
 }
 
 .popup__close:hover {

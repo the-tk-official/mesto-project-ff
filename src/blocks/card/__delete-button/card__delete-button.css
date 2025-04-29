@@ -5,12 +5,12 @@
   width: 18px;
   height: 18px;
   margin: 0;
-  padding: 0;
-  cursor: pointer;
-  transition: 0.3s;
   border: none;
+  padding: 0;
   background: transparent url(../../../images/delete-icon.svg) no-repeat
     center / 18px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .card__delete-button:hover {

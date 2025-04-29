@@ -49,7 +49,14 @@ module.exports = {
               importLoaders: 1,
             },
           },
-          'postcss-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                config: path.resolve(__dirname, 'prod.postcss.config.js'),
+              },
+            },
+          },
         ],
       },
       {
