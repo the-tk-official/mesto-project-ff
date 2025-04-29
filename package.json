@@ -1,0 +1,57 @@
+{
+  "name": "mesto-project-ff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "prettier:check": "prettier . --check",
+    "prettier:fix": "prettier . --write",
+    "lint:check": "stylelint ./src/**/*.css",
+    "lint:fix": "stylelint ./src/**/*.css --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-tk-official/mesto-project-ff.git"
+  },
+  "author": "Тимур Курбанов",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-tk-official/mesto-project-ff/issues"
+  },
+  "homepage": "https://github.com/the-tk-official/mesto-project-ff#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@eslint/compat": "^1.2.8",
+    "@eslint/js": "^9.25.1",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "gh-pages": "^6.3.0",
+    "globals": "^16.0.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "prettier": "3.5.3",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.19.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "core-js": "^3.40.0"
+  }
+}
